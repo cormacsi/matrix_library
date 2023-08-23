@@ -1,0 +1,21 @@
+# Doxygen configuration file for s69_matrix
+# 69 Team
+# 01-03-2023
+
+PROJECT_NAME           = "s69_matrix"
+PROJECT_NUMBER         = "v0.1"
+PROJECT_BRIEF          = Matrix library implementation
+PROJECT_LOGO           = doc/img/logo.png
+OUTPUT_DIRECTORY       = doc
+
+
+INPUT = ./ doc
+OPTIMIZE_OUTPUT_FOR_C  = YES
+GENERATE_LATEX         = NO
+USE_MDFILE_AS_MAINPAGE = doc/README.md
+GENERATE_TREEVIEW      = YES
+DISABLE_INDEX 				 = NO
+FULL_SIDEBAR 					 = NO
+HTML_EXTRA_STYLESHEET  = doc/doxygen-awesome.css
+LAYOUT_FILE            = doc/DoxygenLayout.xml
+
